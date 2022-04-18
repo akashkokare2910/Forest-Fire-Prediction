@@ -43,7 +43,7 @@ def first(request):
     else:
         pass
 
-    return render(request, 'index.html', {'result': res[0]})
+    return render(request, 'index.html', {'result': res})
 
 
 def helper(x):
